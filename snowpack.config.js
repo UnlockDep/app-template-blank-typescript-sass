@@ -4,9 +4,7 @@ module.exports = {
     public: '/',
     src: '/_dist_',
   },
-  plugins: [
-    /* ... */
-  ],
+  plugins: ['@snowpack/plugin-typescript', '@snowpack/plugin-sass'],
   install: [
     /* ... */
   ],
